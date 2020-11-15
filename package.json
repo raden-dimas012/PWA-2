@@ -1,0 +1,15 @@
+{
+    "name": "push-notification",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "generate": "./node_modules/.bin/web-push generate-vapid-keys",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "web-push": "^3.4.4"
+    }
+}
